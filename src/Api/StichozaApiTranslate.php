@@ -17,6 +17,10 @@ class StichozaApiTranslate implements ApiTranslatorContract
     public function __construct($api_key = null)
     {
         $this->handle = new GoogleTranslate();
+        // 代理
+        if (!empty(config('app.proxy'))) {
+            $this->handle->setOptions(['proxy'   => config('app.proxy')]);
+        }
     }
 
     public function translate(string $text, string $locale, string $base_locale = null): string

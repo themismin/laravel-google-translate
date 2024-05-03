@@ -1,5 +1,5 @@
 {
-  "name": "tanmuhittin/laravel-google-translate",
+  "name": "themismin/laravel-google-translate",
   "description": "Translate translation files to other languages using google translate api",
   "license": "MIT",
   "require": {
@@ -31,8 +31,8 @@
   },
   "authors": [
     {
-      "name": "Muhittin Tan",
-      "email": "tanmuhittin@gmail.com"
+      "name": "themismin",
+      "email": "themismin@gmail.com"
     }
   ],
   "require-dev": {
